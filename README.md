@@ -23,3 +23,4 @@
 - [Adversarial Video Generation on Complex Datasets (ICLR 2020)](https://arxiv.org/abs/1907.06571)
   + DVD-GAN / [발표자료](https://github.com/yj-uh/vi-lab/issues/11)
     * [VGAN](https://arxiv.org/abs/1609.02612) / [TGAN](https://arxiv.org/abs/1611.06624) / [MoCoGAN](https://arxiv.org/abs/1707.04993) / [TGANv2](https://arxiv.org/abs/1811.09245)
+* * *
