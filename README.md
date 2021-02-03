@@ -24,3 +24,7 @@
   + DVD-GAN / [발표자료](https://github.com/yj-uh/vi-lab/issues/11)
     * [VGAN](https://arxiv.org/abs/1609.02612) / [TGAN](https://arxiv.org/abs/1611.06624) / [MoCoGAN](https://arxiv.org/abs/1707.04993) / [TGANv2](https://arxiv.org/abs/1811.09245)
 * * *
+
+
+### For later
+ - Clément Godard, Oisin Mac Aodha, Michael Firman, and Gabriel J. Brostow. 2019. Dig-ging into Self-Supervised Monocular Depth Prediction. InInternational Conferenceon Computer Vision (ICCV)
