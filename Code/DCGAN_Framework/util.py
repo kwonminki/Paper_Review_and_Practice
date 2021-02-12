@@ -61,9 +61,9 @@ def save(ckpt_dir, net, optim, epoch, isgan=None):
         save_dic = {}
         
         for i in range(len(net["generator"])):
-            save_dic.update({'netG{}'.format(i) : net["generator"][i], 'optimG{}'.format(i) : optim["generator"][i]})
+            save_dic.update({'netG{}'.format(i) : net["generator"][i].state_dict(), 'optimG{}'.format(i) : optim["generator"][i].state_dict()})
         for j in range(len(net["discriminator"])):
-            save_dic.update({'netD{}'.format(j) : net["discriminator"][j], 'optimG{}'.format(j) : optim["discriminator"][j]})
+            save_dic.update({'netD{}'.format(j) : net["discriminator"][j].state_dict(), 'optimG{}'.format(j) : optim["discriminator"][j].state_dict()})
         
         torch.save(save_dic, '%s/model_epoch%d.pth' % (ckpt_dir, epoch))   
     
