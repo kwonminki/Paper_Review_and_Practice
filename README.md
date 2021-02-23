@@ -9,7 +9,7 @@
 - Batch normalization: Accelerating deep network training by reducing internal covariate shift (PMLR 2015) [(paper)](https://arxiv.org/abs/1502.03167)
   + 기본적으로 대부분의 코드에 적용됨.
 
-### Segmentation & Convolution
+#### Segmentation & Convolution
 - U-Net: Convolutional Networks for Biomedical Image Segmentation [(paper)](https://arxiv.org/abs/1505.04597)
   + UNet / [code](https://github.com/kwonminki/Paper_Review_and_Practice/tree/master/Code/UNet_Module)
   + UNet_reggression / [code](https://github.com/kwonminki/Paper_Review_and_Practice/tree/master/Code/UNet_reggression)
