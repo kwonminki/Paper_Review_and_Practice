@@ -177,7 +177,7 @@ def train(args):
 
         print()
         print('TRAIN: LOSS: %.4f | ACC %.4f' %
-                (epoch, epochs, np.mean(loss_arr), np.mean(acc_arr)))
+                (np.mean(loss_arr), np.mean(acc_arr)))
         print('VAL: LOSS: %.4f | ACC %.4f' % (np.mean(loss_arr_val), np.mean(acc_arr_val)))
 
 
